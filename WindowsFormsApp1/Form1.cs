@@ -24,9 +24,6 @@ namespace WindowsFormsApp1
 
         private async void button1_ClickAsync(object sender, EventArgs e)
         {
-            //try
-            // {
-            //var x = await Derivatives.ExtractSVFAsync("", "eyJhbGciOiJSUzI1NiIsImtpZCI6IlU3c0dGRldUTzlBekNhSzBqZURRM2dQZXBURVdWN2VhIn0.eyJzY29wZSI6WyJkYXRhOndyaXRlIiwiZGF0YTpyZWFkIiwiYnVja2V0OmNyZWF0ZSIsImJ1Y2tldDpkZWxldGUiLCJidWNrZXQ6cmVhZCIsImRhdGE6c2VhcmNoIiwidmlld2FibGVzOnJlYWQiXSwiY2xpZW50X2lkIjoiYkpyc3FndkczQTd1VTdiRmtxRDRVZUVYUm0zMUQ2eUciLCJhdWQiOiJodHRwczovL2F1dG9kZXNrLmNvbS9hdWQvYWp3dGV4cDYwIiwianRpIjoiUlFJajBrZFd0aVcyMlBUTjV6a2NTRmpuQzFOdUtNTHljclFZM0dUdm8zY0V6ejVSMWtSTFRiNk95TXpTQUoxRCIsImV4cCI6MTY2NTA3NzAyOH0.cyvnauBn_tkKuQNdMBp7-DWHjpa3rJg2f72ANqZu2_uVUjcWnPXM64MbkVcpu9g9Jd6EuKXcWkc7ot1G65KSnOMYyYEYmIG1hkX2fmbqd_GzAXOo9EO1TpgxOqxD-joHZXL-uoot2x0z7BOxR6a6UwaRgkvC3eJ2XJbiUp8FFQaBLLBf6-OTJiNFIAK5WIr_BqZbHOGhe4jdroegdJWb8XbrKSQQ2kHOKhCp3KNJMKQzEK3XxaBR9BHH5e5WDOU3kau5fNz8mvpIXx7DC4QyaqqdUIwuyCxJKFRGDtwA7D_YvB4pP7IJg8CGqvYsRwVw2atLaG_Bs9BMbeompo5eVg");
             var urn = txtUrn.Text;
             var AccessToken = txtToken.Text;
 
@@ -61,11 +58,6 @@ namespace WindowsFormsApp1
             }
 
             MessageBox.Show("Process finished");
-            // }
-            // catch (Exception err)
-            //{
-            //    MessageBox.Show(err.Message);
-            // }
         }
     }
 }
